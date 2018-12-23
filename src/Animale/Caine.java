@@ -6,6 +6,7 @@ public class Caine {
     public int viteza = 0;
     public int distanta = 0;
     public int timp = 0;
+    public String sunet;
 
     public Caine (String rasa, String culoare, String varsta){
         this.rasa = rasa;
@@ -47,5 +48,8 @@ public class Caine {
     public void vitezaDown(){
         if (treaz && viteza > 0)
             viteza -= 5;
+    }
+    public void setSunet(){
+        System.out.println("Woof!");
     }
 }

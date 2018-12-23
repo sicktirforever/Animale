@@ -2,7 +2,7 @@ package Animale;
 
 import java.util.Scanner;
 
-public class Main {
+public class TestCaine {
 
     public static void main(String[] args) {
 
@@ -22,5 +22,8 @@ public class Main {
         }
         System.out.println("Timpul in care cainele ajunge la obiectul aruncat este = "
         + caine.timp);
+        System.out.println(caine.getRasa() + caine.getCuloare() + caine.getVarsta() +
+                "ajunge la obiect in " + caine.timp);
+        caine.setSunet();
     }
 }
